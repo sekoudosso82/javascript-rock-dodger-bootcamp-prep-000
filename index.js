@@ -73,9 +73,7 @@ function moveDodger(e)
    e.stopPropagation();
   document.addEventListener('keydown', function(e) {
   if (e.which === 37) {
-    // e.stopPropagation();
     moveDodgerLeft();
-    // window.requestAnimationFrame(moveDodgerLeft)
   }else if (e.which === 39) {
   // e.stopPropagation();
    moveDodgerRight();
