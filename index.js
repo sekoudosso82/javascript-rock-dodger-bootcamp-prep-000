@@ -75,12 +75,8 @@ function moveDodger(e)
   if (e.which === 37) {
     moveDodgerLeft();
   }else if (e.which === 39) {
-  // e.stopPropagation();
    moveDodgerRight();
-  // window.requestAnimationFrame(moveDodgerRight)
   }
-  // else if ((e.which !== 39) || (e.which !== 37)){
-  //   return e.preventDefault();
   // }
 });
 
